@@ -1,6 +1,6 @@
 # Vroom Vroom
 
-This is the repository for a group-based university project. The project is a racing video game developed on the Unity game engine.
+This is the repository for a group-based university project. The project is a 3D racing video game developed on the Unity game engine.
 
 **University:** Queen Mary, University of London\
 **Module:** ECS657U/ECS7003P Multi-platform Game Development\
