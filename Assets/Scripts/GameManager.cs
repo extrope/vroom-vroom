@@ -10,7 +10,6 @@ public class GameManager : MonoBehaviour
 	public GameObject youfinishText;
 	public GameObject RestartButton;
 	public GameObject MenuButton;
-	public float resetDelay;
 	void Awake()
 	{
 		if (instance == null)
@@ -26,6 +25,7 @@ public class GameManager : MonoBehaviour
 		youfinishText.SetActive(true);
 		RestartButton.SetActive(true);
 		MenuButton.SetActive(true);
+		Time.timeScale = 0.5f;
 	}
 
 }
