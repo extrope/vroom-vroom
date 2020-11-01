@@ -840,7 +840,7 @@ GameObject:
   m_Component:
   - component: {fileID: 778509288}
   m_Layer: 0
-  m_Name: CAMERA
+  m_Name: Camera
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1196,7 +1196,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1653161090}
   m_Layer: 0
-  m_Name: cameraPos (1)
+  m_Name: First Person
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1391,7 +1391,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1817224915}
   m_Layer: 0
-  m_Name: cameraPos
+  m_Name: Third Person
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1454,7 +1454,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2001511002}
   m_Layer: 0
-  m_Name: camera lookAt
+  m_Name: Focus
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
