@@ -247,9 +247,7 @@ Transform:
   m_Father: {fileID: 4550975190300580567}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-
---- !u!1 &571671309
-
+--- !u!1 &532906008
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -257,78 +255,26 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-
-  - component: {fileID: 571671312}
-  - component: {fileID: 571671311}
-  - component: {fileID: 571671310}
+  - component: {fileID: 532906009}
   m_Layer: 0
-  m_Name: Terrain
-  m_TagString: Untagged
+  m_Name: cameraPos (2)
+  m_TagString: cameraPos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!154 &571671310
-TerrainCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 571671309}
-  m_Material: {fileID: 0}
-  m_Enabled: 1
-  m_TerrainData: {fileID: 15600000, guid: f3d7bbeeeb3445d4d985e69228a149a9, type: 2}
-  m_EnableTreeColliders: 1
---- !u!218 &571671311
-Terrain:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 571671309}
-  m_Enabled: 1
-  serializedVersion: 6
-  m_TerrainData: {fileID: 15600000, guid: f3d7bbeeeb3445d4d985e69228a149a9, type: 2}
-  m_TreeDistance: 5000
-  m_TreeBillboardDistance: 50
-  m_TreeCrossFadeLength: 5
-  m_TreeMaximumFullLODCount: 50
-  m_DetailObjectDistance: 80
-  m_DetailObjectDensity: 1
-  m_HeightmapPixelError: 5
-  m_SplatMapDistance: 1000
-  m_HeightmapMaximumLOD: 0
-  m_ShadowCastingMode: 2
-  m_DrawHeightmap: 1
-  m_DrawInstanced: 0
-  m_DrawTreesAndFoliage: 1
-  m_ReflectionProbeUsage: 1
-  m_MaterialTemplate: {fileID: 10652, guid: 0000000000000000f000000000000000, type: 0}
-  m_BakeLightProbesForTrees: 1
-  m_PreserveTreePrototypeLayers: 0
-  m_DeringLightProbesForTrees: 1
-  m_ScaleInLightmap: 0.0256
-  m_LightmapParameters: {fileID: 15203, guid: 0000000000000000f000000000000000, type: 0}
-  m_GroupingID: 0
-  m_RenderingLayerMask: 1
-  m_AllowAutoConnect: 1
---- !u!4 &571671312
-
+--- !u!4 &532906009
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-
-  m_GameObject: {fileID: 571671309}
-
+  m_GameObject: {fileID: 532906008}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-
-  m_Father: {fileID: 0}
-
+  m_Father: {fileID: 1021115545}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &616067363
@@ -533,13 +479,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: 0.47704184, y: 0.2594096, z: -0.14977022, w: 0.8262607}
-  m_LocalPosition: {x: 889.5, y: 22.5, z: 767.1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 10, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &963194229
 MonoBehaviour:
@@ -619,7 +564,6 @@ Transform:
   m_Father: {fileID: 4551234110764928457}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-
 --- !u!1 &1107345528
 GameObject:
   m_ObjectHideFlags: 0
@@ -721,6 +665,82 @@ Transform:
   m_Father: {fileID: 4550975190300580567}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1658942941
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1658942944}
+  - component: {fileID: 1658942943}
+  - component: {fileID: 1658942942}
+  m_Layer: 0
+  m_Name: Terrain
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!154 &1658942942
+TerrainCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1658942941}
+  m_Material: {fileID: 0}
+  m_Enabled: 1
+  m_TerrainData: {fileID: 15600000, guid: 92fdf7c090b650a43ab008289e9154a7, type: 2}
+  m_EnableTreeColliders: 1
+--- !u!218 &1658942943
+Terrain:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1658942941}
+  m_Enabled: 1
+  serializedVersion: 6
+  m_TerrainData: {fileID: 15600000, guid: 92fdf7c090b650a43ab008289e9154a7, type: 2}
+  m_TreeDistance: 5000
+  m_TreeBillboardDistance: 50
+  m_TreeCrossFadeLength: 5
+  m_TreeMaximumFullLODCount: 50
+  m_DetailObjectDistance: 80
+  m_DetailObjectDensity: 1
+  m_HeightmapPixelError: 5
+  m_SplatMapDistance: 1000
+  m_HeightmapMaximumLOD: 0
+  m_ShadowCastingMode: 2
+  m_DrawHeightmap: 1
+  m_DrawInstanced: 0
+  m_DrawTreesAndFoliage: 1
+  m_ReflectionProbeUsage: 1
+  m_MaterialTemplate: {fileID: 10652, guid: 0000000000000000f000000000000000, type: 0}
+  m_BakeLightProbesForTrees: 1
+  m_PreserveTreePrototypeLayers: 0
+  m_DeringLightProbesForTrees: 1
+  m_ScaleInLightmap: 0.0256
+  m_LightmapParameters: {fileID: 15203, guid: 0000000000000000f000000000000000, type: 0}
+  m_GroupingID: 0
+  m_RenderingLayerMask: 1
+  m_AllowAutoConnect: 1
+--- !u!4 &1658942944
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1658942941}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1764278416
 GameObject:
   m_ObjectHideFlags: 0
@@ -754,36 +774,6 @@ Transform:
   - {fileID: 4551147802801784987}
   m_Father: {fileID: 4550975190300580567}
   m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1764912871
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1764912872}
-  m_Layer: 0
-  m_Name: Center Of Mass
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1764912872
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1764912871}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.45, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 4551234110764928457}
-  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1884843810
 GameObject:
@@ -1534,7 +1524,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4556665543441031723}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0.6247549, y: 0.32025385, z: 1.2456551}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -2023,20 +2013,18 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4556718534543445005}
-  m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 919.2, y: 0.33, z: 773.7}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 10, y: 0, z: 10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4550975190300580567}
   - {fileID: 4555184903736208835}
   - {fileID: 4551188654303561691}
   - {fileID: 4551184191698460673}
-
-  - {fileID: 1764912872}
-
+  - {fileID: 1021115545}
   m_Father: {fileID: 0}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4551234402360913905
 Transform:
   m_ObjectHideFlags: 0
@@ -2609,7 +2597,7 @@ GameObject:
   - component: {fileID: 4562138218233132543}
   - component: {fileID: 4570008004879227349}
   m_Layer: 0
-  m_Name: LOD2
+  m_Name: SportCar20_BrakeFrontLeft_LOD2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2627,7 +2615,7 @@ GameObject:
   - component: {fileID: 4557913068110061045}
   - component: {fileID: 4570024365785992757}
   m_Layer: 0
-  m_Name: LOD0
+  m_Name: Plate Type EU LOD0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2645,7 +2633,7 @@ GameObject:
   - component: {fileID: 4562139777893959715}
   - component: {fileID: 4570218742492441837}
   m_Layer: 0
-  m_Name: LOD0
+  m_Name: SportCar20_BrakeRearLeft_LOD0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2681,7 +2669,7 @@ GameObject:
   - component: {fileID: 4561398606324874141}
   - component: {fileID: 4570281894037629409}
   m_Layer: 0
-  m_Name: LOD0
+  m_Name: Body LOD0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2699,7 +2687,7 @@ GameObject:
   - component: {fileID: 4561846705365279573}
   - component: {fileID: 4570005338948537525}
   m_Layer: 0
-  m_Name: LOD0
+  m_Name: SportCar20_WheelRearLeft_LOD0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2733,7 +2721,7 @@ GameObject:
   - component: {fileID: 4557749672251615729}
   - component: {fileID: 4569761461216243823}
   m_Layer: 0
-  m_Name: LOD0
+  m_Name: SportCar20_BrakeRearRight_LOD0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2751,7 +2739,7 @@ GameObject:
   - component: {fileID: 4561695428721122515}
   - component: {fileID: 4570142438156655925}
   m_Layer: 0
-  m_Name: LOD0
+  m_Name: Windows LOD0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2769,7 +2757,7 @@ GameObject:
   - component: {fileID: 4561671417462935779}
   - component: {fileID: 4569427197077563357}
   m_Layer: 0
-  m_Name: LOD2
+  m_Name: Spoiler LOD2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2787,7 +2775,7 @@ GameObject:
   - component: {fileID: 4561992658537485203}
   - component: {fileID: 4569514301577775645}
   m_Layer: 0
-  m_Name: LOD1
+  m_Name: SportCar20_WheelFrontRight_LOD1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2805,7 +2793,7 @@ GameObject:
   - component: {fileID: 4557695662084602935}
   - component: {fileID: 4569712307781458191}
   m_Layer: 0
-  m_Name: Glow
+  m_Name: SportCar20_BrakeFrontLeftGlow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2857,7 +2845,7 @@ GameObject:
   - component: {fileID: 4561788867803376253}
   - component: {fileID: 4569994343189055589}
   m_Layer: 0
-  m_Name: LOD2
+  m_Name: SportCar20_BrakeRearLeft_LOD2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2875,7 +2863,7 @@ GameObject:
   - component: {fileID: 4561399116234997701}
   - component: {fileID: 4569529789713594937}
   m_Layer: 0
-  m_Name: LOD2
+  m_Name: Paint LOD2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2892,7 +2880,7 @@ GameObject:
   - component: {fileID: 4551048519202409489}
   - component: {fileID: 4530280061714403787}
   m_Layer: 0
-  m_Name: LOD0
+  m_Name: Suspension LOD0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2910,7 +2898,7 @@ GameObject:
   - component: {fileID: 4561915050861365539}
   - component: {fileID: 4570213108959219049}
   m_Layer: 0
-  m_Name: LOD0
+  m_Name: Paint LOD0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2934,23 +2922,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-
---- !u!114 &4556718534543445006
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4556718534543445005}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 59b1d9b962341ae48b83b3c9552e7db1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  motorRatio: 0.5
-  motorTorque: 2000
-  maxSteer: 20
-
 --- !u!1 &4556737193498990207
 GameObject:
   m_ObjectHideFlags: 0
@@ -2964,7 +2935,7 @@ GameObject:
   - component: {fileID: 4569721271453128093}
   - component: {fileID: 4601818976350574831}
   m_Layer: 0
-  m_Name: Body
+  m_Name: Body Collider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3000,7 +2971,7 @@ GameObject:
   - component: {fileID: 4561795748937277751}
   - component: {fileID: 4569711356062934053}
   m_Layer: 0
-  m_Name: LOD2
+  m_Name: Windows LOD2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3018,7 +2989,7 @@ GameObject:
   - component: {fileID: 4561892054918585411}
   - component: {fileID: 4570263194115539465}
   m_Layer: 0
-  m_Name: LOD0
+  m_Name: SportCar20_WheelRearRight_LOD0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3036,7 +3007,7 @@ GameObject:
   - component: {fileID: 4561858806949569817}
   - component: {fileID: 4569626192752736331}
   m_Layer: 0
-  m_Name: LOD2
+  m_Name: SportCar20_BrakeRearRight_LOD2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3054,7 +3025,7 @@ GameObject:
   - component: {fileID: 4561659863560317573}
   - component: {fileID: 4570136835998419867}
   m_Layer: 0
-  m_Name: Glow
+  m_Name: SportCar20_BrakeFrontRightGlow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3088,7 +3059,7 @@ GameObject:
   - component: {fileID: 4561975110721443807}
   - component: {fileID: 4569824865465777417}
   m_Layer: 0
-  m_Name: LOD1
+  m_Name: Spoiler LOD1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3140,7 +3111,7 @@ GameObject:
   - component: {fileID: 4561669015087686905}
   - component: {fileID: 4569896884130161339}
   m_Layer: 0
-  m_Name: LOD2
+  m_Name: SportCar20_BrakeFrontRight_LOD2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3176,7 +3147,7 @@ GameObject:
   - component: {fileID: 4561465574970069695}
   - component: {fileID: 4569423602835642677}
   m_Layer: 0
-  m_Name: LOD2
+  m_Name: Body LOD2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3194,7 +3165,7 @@ GameObject:
   - component: {fileID: 4561416653655940711}
   - component: {fileID: 4569521560514958639}
   m_Layer: 0
-  m_Name: Glow
+  m_Name: SportCar20_BrakeRearLeftGlow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3212,7 +3183,7 @@ GameObject:
   - component: {fileID: 4561563704222998645}
   - component: {fileID: 4570050509062225399}
   m_Layer: 0
-  m_Name: LOD1
+  m_Name: SportCar20_BrakeFrontLeft_LOD1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3264,7 +3235,7 @@ GameObject:
   - component: {fileID: 4561502721307164447}
   - component: {fileID: 4569497628901953779}
   m_Layer: 0
-  m_Name: LOD1
+  m_Name: SportCar20_WheelRearLeft_LOD1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3282,7 +3253,7 @@ GameObject:
   - component: {fileID: 4561688281752773307}
   - component: {fileID: 4569618672415234335}
   m_Layer: 0
-  m_Name: Glow
+  m_Name: SportCar20_BrakeRearRightGlow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3316,7 +3287,7 @@ GameObject:
   - component: {fileID: 4561460239594509493}
   - component: {fileID: 4569761597335333237}
   m_Layer: 0
-  m_Name: LOD0
+  m_Name: SportCar20_BrakeFrontRight_LOD0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3332,7 +3303,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4551184191698460673}
   m_Layer: 0
-  m_Name: Wheels
+  m_Name: Wheel Hubs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3366,7 +3337,7 @@ GameObject:
   - component: {fileID: 4557683189524574311}
   - component: {fileID: 4570120011305417881}
   m_Layer: 0
-  m_Name: LOD2
+  m_Name: SportCar20_WheelFrontLeft_LOD2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3402,7 +3373,7 @@ GameObject:
   - component: {fileID: 4561889653636406737}
   - component: {fileID: 4569609924833479901}
   m_Layer: 0
-  m_Name: Number
+  m_Name: Number Type EU
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3420,7 +3391,7 @@ GameObject:
   - component: {fileID: 4557839044694324373}
   - component: {fileID: 4570289966180805555}
   m_Layer: 0
-  m_Name: LOD1
+  m_Name: SportCar20_BrakeRearRight_LOD1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3454,7 +3425,7 @@ GameObject:
   - component: {fileID: 4557652591057159449}
   - component: {fileID: 4570051176011910981}
   m_Layer: 0
-  m_Name: LOD1
+  m_Name: Body LOD1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3472,7 +3443,7 @@ GameObject:
   - component: {fileID: 4561543837005959463}
   - component: {fileID: 4570338888748996037}
   m_Layer: 0
-  m_Name: LOD2
+  m_Name: SportCar20_WheelFrontRight_LOD2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3489,7 +3460,7 @@ GameObject:
   - component: {fileID: 4551133369757482369}
   - component: {fileID: 4526280951904284349}
   m_Layer: 0
-  m_Name: LOD1
+  m_Name: Suspension LOD1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3507,7 +3478,7 @@ GameObject:
   - component: {fileID: 4561397952706957547}
   - component: {fileID: 4570248309624469651}
   m_Layer: 0
-  m_Name: LOD0
+  m_Name: SportCar20_WheelFrontLeft_LOD0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3541,7 +3512,7 @@ GameObject:
   - component: {fileID: 4561908413489097647}
   - component: {fileID: 4570102875389742767}
   m_Layer: 0
-  m_Name: LOD2
+  m_Name: Plate Type EU LOD2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3575,7 +3546,7 @@ GameObject:
   - component: {fileID: 4561686395721448357}
   - component: {fileID: 4569670437689519927}
   m_Layer: 0
-  m_Name: LOD2
+  m_Name: SportCar20_WheelRearRight_LOD2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3611,7 +3582,7 @@ GameObject:
   - component: {fileID: 4557829569408657881}
   - component: {fileID: 4570244174189081475}
   m_Layer: 0
-  m_Name: LOD1
+  m_Name: SportCar20_BrakeFrontRight_LOD1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3629,7 +3600,7 @@ GameObject:
   - component: {fileID: 4557709671097185193}
   - component: {fileID: 4570284807798014469}
   m_Layer: 0
-  m_Name: LOD1
+  m_Name: Paint LOD1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3665,7 +3636,7 @@ GameObject:
   - component: {fileID: 4557710856061311019}
   - component: {fileID: 4570065788152636889}
   m_Layer: 0
-  m_Name: LOD0
+  m_Name: SportCar20_BrakeFrontLeft_LOD0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3683,7 +3654,7 @@ GameObject:
   - component: {fileID: 4561400440078065845}
   - component: {fileID: 4569589249315726121}
   m_Layer: 0
-  m_Name: LOD2
+  m_Name: SportCar20_WheelRearLeft_LOD2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3719,7 +3690,7 @@ GameObject:
   - component: {fileID: 4557653889474049851}
   - component: {fileID: 4569415837799650913}
   m_Layer: 0
-  m_Name: LOD0
+  m_Name: SportCar20_WheelFrontRight_LOD0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3737,7 +3708,7 @@ GameObject:
   - component: {fileID: 4557749225651120687}
   - component: {fileID: 4569615075931216117}
   m_Layer: 0
-  m_Name: LOD1
+  m_Name: Plate Type EU LOD1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3755,7 +3726,7 @@ GameObject:
   - component: {fileID: 4561726812095148903}
   - component: {fileID: 4570243138956100751}
   m_Layer: 0
-  m_Name: LOD1
+  m_Name: SportCar20_WheelRearRight_LOD1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3773,7 +3744,7 @@ GameObject:
   - component: {fileID: 4557675138189912711}
   - component: {fileID: 4569564759024390831}
   m_Layer: 0
-  m_Name: LOD1
+  m_Name: Windows LOD1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3791,7 +3762,7 @@ GameObject:
   - component: {fileID: 4561643872114274345}
   - component: {fileID: 4569908024357658237}
   m_Layer: 0
-  m_Name: LOD1
+  m_Name: SportCar20_WheelFrontLeft_LOD1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3809,7 +3780,7 @@ GameObject:
   - component: {fileID: 4557688078791137911}
   - component: {fileID: 4569455223664302097}
   m_Layer: 0
-  m_Name: LOD1
+  m_Name: SportCar20_BrakeRearLeft_LOD1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3845,7 +3816,7 @@ GameObject:
   - component: {fileID: 4557663347829407359}
   - component: {fileID: 4569729334419067505}
   m_Layer: 0
-  m_Name: LOD0
+  m_Name: Spoiler LOD0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
