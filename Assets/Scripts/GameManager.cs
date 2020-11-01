@@ -9,23 +9,23 @@ public class GameManager : MonoBehaviour
 	public static GameManager instance = null;
 	public GameObject youfinishText;
 	public GameObject RestartButton;
-	public GameObject MenuButton;
-	void Awake()
-	{
+	public GameObject MenuButton; 
+	void Awake()                                    //check if only one GameManager is running 
+	{ 
 		if (instance == null)
 		{
 			instance = this;
 		}
 		else if (instance != null)
-			Destroy(gameObject);
+			Destroy(gameObject);				   //destroy if an instance is already running
 	}
 
 	public void Win()
 	{
-		youfinishText.SetActive(true);
+		youfinishText.SetActive(true);				//set visibility to true after crossing finish line 
 		RestartButton.SetActive(true);
 		MenuButton.SetActive(true);
-		Time.timeScale = 0.5f;
+		Time.timeScale = 0.5f;						//slowmotion after crossing the line
 	}
 
 }

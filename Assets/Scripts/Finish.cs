@@ -6,7 +6,7 @@ public class Finish : MonoBehaviour
 {
 	void OnTriggerEnter()
     {
-		GameManager.instance.Win();
+		GameManager.instance.Win();                   //triggers Win from GameManager on triggering finish collision
     }
 }
 

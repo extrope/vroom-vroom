@@ -8,7 +8,7 @@ public class MainMenu : MonoBehaviour
 {
 	public void ReturnMenu()
 	{
-		Time.timeScale = 1f;
-		SceneManager.LoadScene("Menu");
+		Time.timeScale = 1f;                        //revert timescale back to one after finishing race
+		SceneManager.LoadScene("Menu");            //go to main menu after pushing the button
 	}
 }
