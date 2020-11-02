@@ -14,4 +14,4 @@ This is the repository for a group-based university project. The project is a 3D
 **Assets Used in Project from Unity Asset Store:**
 - https://assetstore.unity.com/packages/3d/vehicles/land/low-poly-sports-car-20-144253 \
   **Name:** Low-poly Sports car #20 \
-  **Author:** Pro 3D models (https://assetstore.unity.com/publishers/31689) \
+  **Author:** Pro 3D models (https://assetstore.unity.com/publishers/31689)
